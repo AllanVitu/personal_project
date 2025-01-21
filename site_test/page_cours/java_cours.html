@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Java</title>
+</head>
+<body>
+    <header>
+        <div class="texte_java">
+            <h1>Java</h1>
+            <p1>mport java.util.Scanner;
+                public class Elections {
+                
+                    public static void main(String[] args) {
+                        Scanner scanner = new Scanner(System.in);
+                
+                        // Saisie des scores des candidatsint scoreCandidat1, scoreCandidat2, scoreCandidat3, scoreCandidat4;
+                        System.out.print("Score du candidat 1: ");
+                        scoreCandidat1 = scanner.nextInt();        System.out.print("Score du candidat 2: ");
+                        scoreCandidat2 = scanner.nextInt();        System.out.print("Score du candidat 3: ");
+                        scoreCandidat3 = scanner.nextInt();        System.out.print("Score du candidat 4: ");
+                        scoreCandidat4 = scanner.nextInt();
+                        // Calcul du nombre total de votesint nombreTotalVotes = scoreCandidat1 + scoreCandidat2 + scoreCandidat3 + scoreCandidat4;
+                
+                        // Détermination du seuil de majorité absolueint seuilMajoriteAbsolue = (int) (nombreTotalVotes * 0.5);
+                
+                        // Analyse du score du candidat 1if (scoreCandidat1 > seuilMajoriteAbsolue) {
+                            System.out.println("Le candidat 1 est élu dès le premier tour.");
+                        } else {
+                            // Calcul du seuil de qualification pour le second tourint seuilQualificationSecondTour = (int) (nombreTotalVotes * 0.125);
+                
+                            if (scoreCandidat1 >= seuilQualificationSecondTour) {
+                                if (scoreCandidat1 > scoreCandidat2 && scoreCandidat1 > scoreCandidat3 && scoreCandidat1 > scoreCandidat4) {
+                                    System.out.println("Le candidat 1 est en ballottage favorable.");
+                                } else {
+                                    System.out.println("Le candidat 1 est en ballottage défavorable.");
+                                }
+                            } else {
+                                System.out.println("Le candidat 1 est battu.");
+                            }
+                        }
+                    }
+                }
+            </p1>
+        </div>
+    </header>
+</body>
+</html>
