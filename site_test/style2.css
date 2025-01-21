@@ -6,7 +6,7 @@
 }
 
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imgs/img_acceuil.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imgs/matrix_2_button.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -56,8 +56,8 @@ ul li a:hover{
 }
 
 ul li.active a{
-    background: #fff;
-    color: #000;
+    background: #e25151;
+    color: #ffffff;
 }
 
 .principale{

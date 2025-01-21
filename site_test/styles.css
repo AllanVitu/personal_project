@@ -95,13 +95,10 @@ ul li.active a{
     text-decoration: none;
     border: 1px solid #fff;
     padding: 10px 20px;
-}
-
-.btn{
     transition: 0.6s ease;
 }
 
-.btn:hover{
+.bouton a:hover{
     background-color: #fff;
     color: #000;
 }
