@@ -5,8 +5,11 @@
     font-family: century;
 }
 
+div{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/imgs/matrix_2_button.jpg);
+}
+
 header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imgs/matric_button.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;

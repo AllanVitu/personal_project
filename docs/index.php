@@ -7,24 +7,26 @@
     <title>S.P.R.E.D.</title>
 </head>
 <body>
-    <header>   
-        <?php
-        isset ($_GET[mon_image()]);
-    ?>
+    <header>
+        
+    //image de fond du site.
+<div>
+    <img src="/imgs/matrix_2_button.jpg" alt="matrix_img">
+</div>
+            
 
-    <?php
-        function mon_image(){
-            return '<img src="/assets/imgs/matric_button.jpg" alt="mon image" />';
-        }  
-    ?>
-
- 
+    //Commencement du PHP.
 
     <?php 
     include 'includes/_nav.php';
     ?>
     </header>
     <main>
+
+    <?php
+        include 'includes/_java.php';
+    ?>
+
         <?php
             if(isset($_GET['action'])) {
                 include 'pages/' . $_GET('action') . '.php';
@@ -36,6 +38,6 @@
     </main>
     <?php 
     include 'includes/_footer.php';
-    ?>
-</body>
+    ?>        
+    </body>
 </html>
