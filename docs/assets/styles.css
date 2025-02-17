@@ -112,3 +112,11 @@ ul li.active a{
 .bouton i{
     margin-right: 5px
 }
+
+footer{
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
