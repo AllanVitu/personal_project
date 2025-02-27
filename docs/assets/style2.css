@@ -105,3 +105,21 @@ ul li.active a{
     background-color: #fff;
     color: #000;
 }
+
+.bouton a:hover{
+    background-color: #fff;
+    color: #000;
+    transform: rotate(5deg)
+}
+
+.bouton i{
+    margin-right: 5px
+}
+
+footer{
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
