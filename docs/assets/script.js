@@ -1,0 +1,1 @@
+const btnSinscrire = document.querySelector("#buttonSingIn")
